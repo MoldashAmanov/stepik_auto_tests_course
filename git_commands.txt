@@ -1,0 +1,11 @@
+git init — инициилизация нового репозитория;
+git clone [url] — склонировать репозиторий;
+git add . — добавить все новые файлы, или git add filename — добавить отдельный файл. Можно и git add folder_name — добавит папку;
+git commit -a -m «Commit message» — сделать коммит в репозиторий, флаг -a означает что будут индексироваться изменения уже существующих файлов, -m — сообщение коммита;
+git branch — вывести список всех веток репозитория, значек * будет стоять напротив текущего;
+git branch [new-super-cool-branch] — создать новую ветку new-super-cool-branch;
+git branch -D [old-shittly-branch] — удалить ветку;
+git checkout [new-super-cool-branch] — переключиться на ветку new-super-cool-branch;
+git merge [new-super-cool-branch] — находясь в другой ветке, произвести слияние с  new-super-cool-branch;
+git push — отправить свои изменения на другой сервере;
+git pull — проверить обновления на другом сервере.
